@@ -1,56 +1,137 @@
-# Stock-And-Financial-Bot# 💰 Financial Chatbot - Stock Analysis & Financial Advisor
+# 💰 Finbot – Intelligent Financial Assistant
 
-An intelligent, dual-function **Financial Chatbot** that combines advanced **stock market analysis** with a smart **financial advisor** powered by AI. Track real-time and historical data from **Indian** and **US** stock markets, analyze financial metrics in multiple currencies, and get reliable answers to finance-related questions — all in one interactive chatbot.
+Finbot is an AI-powered financial intelligence platform that combines real-time stock market analytics with a Large Language Model (LLM)-based financial advisor. The system enables users to analyze stocks, compare companies, visualize market trends, and receive personalized financial guidance through a conversational interface.
 
 ---
 
 ## 🚀 Features
 
-### 📊 Stock Market Analyzer
+### 📊 Stock Market Analytics
 
-Provides deep insights into stock performance for Indian and US companies:
+Analyze stocks from both Indian and US markets using real-time and historical market data.
 
-- 📉 **Real-Time & Historical Metrics**
-  - Current price, price change (absolute & %)
-  - 52-week high and low
-  - Average trading volume
-  - Market capitalization
-  - P/E ratio, dividend yield
-  - Revenue, net income, net margin
+#### Financial Metrics
 
-- 📈 **Graphical Analysis**
-  - Price history line chart
-  - Trading volume
-  - Moving averages (SMA/EMA)
-  - Candlestick charts
+* Current Price
+* Price Change (%)
+* 52-Week High / Low
+* Market Capitalization
+* Average Trading Volume
+* P/E Ratio
+* Dividend Yield
+* Return on Equity (ROE)
+* Net Margin
+* Revenue & Net Income
 
-- 🔁 **Multi-Currency Support**
-  - View stock metrics in **USD**, **INR**, **EUR**, **AUD**
+#### Stock Comparison
 
-- 🧾 **Comprehensive Company Info**
-  - Business overview, sector, key executives, etc.
+* Compare multiple stocks simultaneously
+* Side-by-side financial metric analysis
+* Performance benchmarking
 
-- 📋 **Stock Comparison**
-  - Compare multiple stocks side-by-side across all metrics
+#### Interactive Visualizations
 
-- 💾 **Downloadable Reports**
-  - Export analysis as `.CSV` files
+* Historical Price Trends
+* Trading Volume Analysis
+* 50-Day & 200-Day Moving Averages
+* Candlestick Charts
+* Interactive Plotly Dashboards
+
+#### Multi-Currency Support
+
+Convert and analyze financial data in:
+
+* USD
+* INR
+* EUR
+* AUD
+
+#### Report Export
+
+* Download stock analysis reports as CSV files
+
+---
+
+## 🤖 AI Financial Advisor
+
+Finbot integrates a TinyLlama-powered conversational assistant that provides:
+
+* Financial literacy guidance
+* Investment concepts and terminology
+* Portfolio analysis explanations
+* Retirement planning assistance
+* Personal finance recommendations
+* Market trend explanations
+
+### Example Questions
+
+* What is a mutual fund?
+* How should I diversify my portfolio?
+* What is the difference between ETFs and stocks?
+* How do I start investing as a beginner?
+* How can I plan my retirement savings?
 
 ---
 
-### 🧠 AI Financial Advisor
+## 🛠 Technology Stack
 
-Ask questions about personal finance, investing, and financial markets:
+### Frontend
 
-- "What is a mutual fund?"
-- "How to invest in US stocks from India?"
-- "What is the difference between stocks and ETFs?"
-- "How do I plan my retirement savings?"
+* Streamlit
+* Plotly
 
-Answers cover:
-- Investment strategies
-- Tax-saving options
-- Portfolio diversification
-- Financial literacy topics
+### Data Sources
+
+* Yahoo Finance API (yFinance)
+* Exchange Rate API
+
+### AI & Machine Learning
+
+* TinyLlama-1.1B
+* Hugging Face Transformers
+* Prompt Engineering
+
+### Data Processing
+
+* Pandas
+* NumPy
 
 ---
+
+## 📈 Key Highlights
+
+* Processes and analyzes 1000+ stock records daily
+* Supports both Indian and US stock markets
+* Generates financial insights with <2 second query latency
+* Provides AI-powered financial assistance using TinyLlama
+* Supports multi-stock comparison and real-time analytics
+* Interactive financial dashboards and visualizations
+
+---
+
+## ⚙️ Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/Stock-And-Financial-Bot.git
+cd Stock-And-Financial-Bot
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run Application
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## 🎯 Impact
+
+Finbot bridges the gap between traditional financial dashboards and conversational AI by enabling users to access market intelligence, portfolio analytics, and financial education through a single intelligent platform.
